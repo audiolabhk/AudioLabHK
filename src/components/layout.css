@@ -19,6 +19,17 @@ body {
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
 }
+
+.navbar {
+  background: darkblue;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+}
+
+.navbar Link {
+  color: white;
+}
+
 article,
 aside,
 details,

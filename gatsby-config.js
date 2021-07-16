@@ -4,6 +4,7 @@ module.exports = {
     description: `Bespoke...`,
   },
   plugins: [
+    `gatsby-plugin-postcss`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     {

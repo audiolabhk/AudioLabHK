@@ -29,14 +29,13 @@ const IndexPage = () => {
             <div className="w-full md:w-1/2 md:px-3">
               <div className="w-full pb-6 space-y-6 sm:max-w-md lg:max-w-lg md:space-y-4 lg:space-y-8 xl:space-y-9 sm:pr-5 lg:pr-0 md:pb-0">
                 <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-4xl lg:text-5xl xl:text-6xl">
-                  <span className="block xl:inline">Beautiful Pages to</span>
-                  <span className="block text-indigo-600 xl:inline">
-                    Tell Your Story!
+                  <span className="block xl:inline">AudioLab HK</span>
+                  <span className="text-indigo-600 md:inline">
+                    Bespoke Digital Media Services
                   </span>
                 </h1>
                 <p className="mx-auto text-base text-gray-500 sm:max-w-md lg:text-xl md:max-w-3xl">
-                  It's never been easier to build beautiful websites that convey
-                  your message and tell your story.
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab a harum sit eos? Consequatur magnam reprehenderit autem eos soluta aperiam iusto placeat pariatur beatae assumenda! Quidem a labore reiciendis hic?
                 </p>
                 <div className="relative flex flex-col sm:flex-row sm:space-x-4">
                   <a
@@ -69,7 +68,13 @@ const IndexPage = () => {
             </div>
             <div className="w-full md:w-1/2">
               <div className="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl">
-                <img src="https://cdn.devdojo.com/images/november2020/hero-image.jpeg" />
+                <StaticImage
+                  src="../images/hero-image.jpeg"
+                  quality={50}
+                  // fluid
+                  formats={["AUTO", "WEBP", "AVIF"]}
+                  alt="A Gatsby astronaut"
+                />
               </div>
             </div>
           </div>

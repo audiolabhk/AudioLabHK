@@ -10,6 +10,7 @@ const Layout = ({ children }) => {
       site {
         siteMetadata {
           title
+          description
         }
       }
     }
@@ -17,11 +18,11 @@ const Layout = ({ children }) => {
 
   return (
     <>
-    <Navbar />
+      <Navbar />
       <main>{children}</main>
 
-      <footer>
-        <code>ALHK</code>
+      <footer className="bg-gray-800 h-12 text-gray-300 text-sm p-4">
+        <code>{data.site.siteMetadata.description}</code>
       </footer>
     </>
   )

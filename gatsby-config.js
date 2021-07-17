@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `AudioLabHK`,
-    description: `Bespoke...`,
+    description: `Bespoke Digital Media Services`,
   },
   plugins: [
     `gatsby-plugin-postcss`,

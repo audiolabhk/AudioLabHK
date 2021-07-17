@@ -1,6 +1,6 @@
 import React from "react"
 
-export default function Hero() {
+export default function() {
   return (
     <section className="py-5 bg-gray-100">
       <div className="container max-w-6xl mx-auto">

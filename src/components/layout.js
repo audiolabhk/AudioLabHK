@@ -20,7 +20,6 @@ const Layout = ({ children }) => {
     <>
       <Navbar />
       <main>{children}</main>
-
       <footer className="bg-gray-800 h-12 text-gray-300 text-sm p-4">
         <code>{data.site.siteMetadata.description}</code>
       </footer>

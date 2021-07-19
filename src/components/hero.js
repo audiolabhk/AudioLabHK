@@ -3,7 +3,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import { graphql, useStaticQuery } from "gatsby"
 
 export default function Hero() {
-  const {site} = useStaticQuery(graphql`
+  const { site } = useStaticQuery(graphql`
     query siteQuery {
       site {
         siteMetadata {
@@ -14,64 +14,36 @@ export default function Hero() {
     }
   `)
 
-  const {title, description} = site.siteMetadata
+  const { title, description } = site.siteMetadata
   return (
-    <section className="px-2 py-20 md:px-0">
-      <div className="container items-center max-w-6xl px-8 mx-auto xl:px-5">
-        <div className="flex flex-wrap items-center sm:-mx-3">
-          <div className="w-full md:w-1/2 md:px-3">
-            <div className="w-full pb-6 space-y-6 sm:max-w-md lg:max-w-lg md:space-y-4 lg:space-y-8 xl:space-y-9 sm:pr-5 lg:pr-0 md:pb-0">
-              <div className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-4xl lg:text-5xl">
-                <h1 className="block xl:inline mb-1">{title}</h1>
-                <h2 className="text-indigo-600 md:inline">
-                 {description}
-                </h2>
-              </div>
-              <p className="mx-auto text-base text-gray-500 sm:max-w-md lg:text-xl md:max-w-3xl">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab a
-                harum sit eos? Consequatur magnam reprehenderit autem eos soluta
-                aperiam iusto placeat pariatur beatae assumenda! Quidem a labore
-                reiciendis hic?
-              </p>
-              <div className="relative flex flex-col sm:flex-row sm:space-x-4">
-                <a
-                  href="#_"
-                  className="flex items-center w-full px-6 py-3 mb-3 text-lg text-white bg-indigo-600 rounded-md sm:mb-0 hover:bg-indigo-700 sm:w-auto"
-                >
-                  Try It Free
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="w-5 h-5 ml-1"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  >
-                    <line x1="5" y1="12" x2="19" y2="12"></line>
-                    <polyline points="12 5 19 12 12 19"></polyline>
-                  </svg>
-                </a>
-                <a
-                  href="#_"
-                  className="flex items-center px-6 py-3 text-gray-500 bg-gray-100 rounded-md hover:bg-gray-200 hover:text-gray-600"
-                >
-                  Learn More
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="w-full md:w-1/2">
-            <div className="w-full h-auto overflow-hidden rounded-md sm:rounded-xl hover:invisible">
-              <StaticImage
-                src="../images/hero-image.jpeg"
-                quality={50}
-                // fluid
-                formats={["AUTO", "WEBP", "AVIF"]}
-                alt="A Gatsby astronaut"
-              />
-            </div>
+    <section className="text-gray-600 body-font lg:px-32">
+      <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+            <StaticImage
+              src="../images/720.png"
+              quality={95}
+              formats={["AUTO", "WEBP", "AVIF"]}
+              alt="alternative description"
+            />
+        </div>
+        <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+          <h1 className="title-font text-4xl mb-2 font-medium text-gray-900">
+            {title}
+          </h1>
+          <h2 className="mb-4 text-2xl">{description}</h2>
+          <p className="mb-8 leading-relaxed">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+            autem ipsum consequuntur sit incidunt, doloremque labore soluta
+            blanditiis voluptatibus quis, aut, fuga odit earum maxime
+            distinctio! Officiis provident repellat enim!
+          </p>
+          <div className="flex justify-center">
+            <button className="inline-flex text-white bg-yellow-500 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-600 rounded text-lg">
+              Button
+            </button>
+            <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
+              Button
+            </button>
           </div>
         </div>
       </div>

@@ -6,7 +6,6 @@ import Features from "../components/features"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Signup from "../components/signup"
-import Solution from "../components/solution"
 
 const IndexPage = () => {
   const { site } = useStaticQuery(
@@ -26,7 +25,8 @@ const IndexPage = () => {
     <Layout>
       <Seo title="Home" />
         <Hero />
-        <Solution />
+        <Features dark="dark" reverse=""/>
+        <Features dark="light" reverse='-reverse'/>
         <Signup />
     </Layout>
   )

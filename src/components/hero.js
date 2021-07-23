@@ -16,10 +16,15 @@ export default function Hero() {
 
   const { title, description } = site.siteMetadata
   return (
-    <div className="md:flex h-full bg-gray-200 p-4 space-x-4 items-center">
+    <div className="md:flex h-full bg-gray-700 p-12 text-white space-x-4 items-center">
       <div className="flex-1 text-center md:text-left mb-10">
-        <h1 className="text-6xl">ALHK</h1>
-        <h2 className="mb-3 text-xl">Bespoke Digital Media Solutions</h2>
+        <h1 className="text-6xl">{title}</h1>
+        <code className="opacity-80 tracking-widest mb-4">{description}</code>
+        <ul className="list-inside">
+          <li>Original, commercial music, and digital media solutions</li>
+          <li>Streamlined production with quick turn-around </li>
+          <li>Bespoke, customised solutions suitable for any budget</li>
+        </ul>
         <button className="bg-green-600 p-3 rounded-full text-white text-bold">
           Get Started
         </button>

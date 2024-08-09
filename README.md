@@ -9,9 +9,9 @@
     <li><strong>Measure</strong>: Data-strategies to capture customer actions, preferences, and journey interactions</li>
 </ul>
 
-<h3>💻 Technical Skills</h3>
+<h3>💻 What I Know</h3>
 
-<h4>Programming Languages</h4>
+<h4>Languages</h4>
 <ul>
     <li><strong>Python</strong>: Expertise in data manipulation and analysis using Pandas, NumPy, and Scikit-learn.</li>
     <li><strong>C#</strong>: Proficient in building scalable applications.</li>
@@ -21,10 +21,11 @@
 
 <h4>Web Technologies</h4>
 <ul>
-    <li><strong>Frontend</strong>: HTML, CSS, JavaScript, with frameworks like React, AngularJS, and VueJS.</li>
-    <li><strong>CMS & E-commerce</strong>: Experienced with Shopify, Webflow, and WordPress for building engaging and functional websites.</li>
+    <li><strong>Frontend</strong>: React (+Next), AngularJS, VueJS.</li>
+    <li><strong>CMS & E-commerce</strong>: Experienced with Shopify, Webflow, and WordPress</li>
 </ul>
 
 <h3>🌟 Let's Connect!</h3>
+<p>Reach out if you have any questions, collaboration ideas, or just to say hello.</p>
 
-<p>🔗 <a href="https://www.linkedin.com/in/zonggu" target="_blank">LinkedIn</a> | 📧 <a href="mailto:zonghgu@gmail.com">Email</a></p>
+<p>🔗 <a href="https://www.linkedin.com/in/zonggu" target="_blank">LinkedIn</a> | 📧 <a href="mailto:zonghgu@gmail.com?subject=Hello from Github...">Email</a></p>

@@ -1,57 +1,30 @@
-<h1>AudioLabHK</h1>
+<h2>Welcome 👋</h2>
 
-<p>Welcome to AudioLabHK, a multilingual React Gatsby project showcasing the services and portfolio of a cutting-edge
-    audio production company based in Hong Kong.</p>
+<p>I'm a seasoned digital produce builder, web & mobile developer, and <a href="https://audiolabhk.com" target="_blank">audio engineer</a> based in Hong Kong</p>
 
-<h2>About</h2>
-
-<p>AudioLabHK is a dynamic, responsive website built with Gatsby and React, designed to highlight our audio production
-    services, showcase our work, and engage potential clients in multiple languages.</p>
-
-<h2>Features</h2>
-
+<h3>🚀 What I Do</h3>
 <ul>
-    <li>🌐 Multilingual support (English, Cantonese, Mandarin)</li>
-    <li>🚀 Built with Gatsby for blazing-fast performance</li>
-    <li>🎨 Sleek, modern design with responsive layouts</li>
-    <li>🎵 Audio player integration for sample tracks</li>
-    <li>🖼️ Image galleries for studio and equipment showcase</li>
-    <li>📱 Mobile-friendly interface</li>
-    <li>🔍 SEO optimized for better visibility</li>
+    <li><strong>Design</strong>: Intuitive interfaces and engaging user experiences, enhancing usability across all devices</li>
+    <li><strong>Development</strong>: Seamless web and mobile applications supporting global eCommerce and performance marketing</li>
+    <li><strong>Measure</strong>: Data-strategies to capture customer actions, preferences, and journey interactions</li>
 </ul>
 
-<h2>Getting Started</h2>
+<h3>💻 Technical Skills</h3>
 
-<p>To run AudioLabHK locally:</p>
+<h4>Programming Languages</h4>
+<ul>
+    <li><strong>Python</strong>: Expertise in data manipulation and analysis using Pandas, NumPy, and Scikit-learn.</li>
+    <li><strong>C#</strong>: Proficient in building scalable applications.</li>
+    <li><strong>Kotlin & Swift</strong>: Skilled in developing native mobile applications for Android and iOS.</li>
+    <li><strong>SQL</strong>: Strong command of database management and query optimization.</li>
+</ul>
 
-<ol>
-    <li>Clone this repository</li>
-    <li>Install dependencies:
-        <pre><code>npm install</code></pre>
-    </li>
-    <li>Start the development server:
-        <pre><code>gatsby develop</code></pre>
-    </li>
-    <li>Open your browser and navigate to <code>http://localhost:8000</code></li>
-</ol>
+<h4>Web Technologies</h4>
+<ul>
+    <li><strong>Frontend</strong>: HTML, CSS, JavaScript, with frameworks like React, AngularJS, and VueJS.</li>
+    <li><strong>CMS & E-commerce</strong>: Experienced with Shopify, Webflow, and WordPress for building engaging and functional websites.</li>
+</ul>
 
-<h2>Multilingual Setup</h2>
+<h3>🌟 Let's Connect!</h3>
 
-<p>We use <code>gatsby-plugin-react-i18next</code> for internationalization. Language files are located in the
-    <code>src/locales</code> directory[3].
-</p>
-
-<h2>Project Structure</h2>
-
-<pre><code>
-src/
-├── components/
-├── pages/
-├── templates/
-├── locales/
-│   ├── en/
-│   ├── zh-HK/
-│   └── zh-CN/
-├── images/
-└── styles/
-</code></pre>
+<p>🔗 <a href="https://www.linkedin.com/in/zonggu" target="_blank">LinkedIn</a> | 📧 <a href="mailto:zonghgu@gmail.com">Email</a></p>

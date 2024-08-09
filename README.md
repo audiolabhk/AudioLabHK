@@ -1,6 +1,6 @@
 <h2>Welcome 👋</h2>
 
-<p>I'm a seasoned digital produce builder, web & mobile developer, and <a href="https://audiolabhk.com" target="_blank">audio engineer</a> based in Hong Kong</p>
+<p>I'm a seasoned digital produce builder, web & mobile developer, and <a href="https://soundcloud.com/audiolabhk" target="_blank">audio engineer</a> based in Hong Kong</p>
 
 <h3>🚀 What I Do</h3>
 <ul>

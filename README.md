@@ -9,23 +9,7 @@
     <li><strong>Measure</strong>: Data-strategies to capture customer actions, preferences, and journey interactions</li>
 </ul>
 
-<h3>💻 What I Know</h3>
-
-<h4>Languages</h4>
-<ul>
-    <li><strong>Python</strong>: Expertise in data manipulation and analysis using Pandas, NumPy, and Scikit-learn.</li>
-    <li><strong>C#</strong>: Proficient in building scalable applications.</li>
-    <li><strong>Kotlin & Swift</strong>: Skilled in developing native mobile applications for Android and iOS.</li>
-    <li><strong>SQL</strong>: Strong command of database management and query optimization.</li>
-</ul>
-
-<h4>Web Technologies</h4>
-<ul>
-    <li><strong>Frontend</strong>: React (+Next), AngularJS, VueJS.</li>
-    <li><strong>CMS & E-commerce</strong>: Experienced with Shopify, Webflow, and WordPress</li>
-</ul>
-
 <h3>🌟 Let's Connect!</h3>
 <p>Reach out if you have any questions, collaboration ideas, or just to say hello.</p>
 
-<p>🔗 <a href="https://www.linkedin.com/in/zonggu" target="_blank">LinkedIn</a> | 📧 <a href="mailto:zonghgu@gmail.com?subject=Hello from Github...">Email</a></p>
+<p>🔗 <a href="https://www.linkedin.com/in/zonggu" target="_blank">LinkedIn</a> </p>
